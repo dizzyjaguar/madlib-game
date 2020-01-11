@@ -4,8 +4,10 @@ function revealMadLib() {
     const outputAdjective1 = inputAdjective1.value;
     adjective1.textContent = outputAdjective1;
     //word 2 
-    const inputFantasySpecies1 = document.getElementById('input-fantasy-species1');
+    const inputFantasySpecies1 = document.getElementById('input-species1');
     const outputFantasySpecies1 = inputFantasySpecies1.value;
+    console.log(outputFantasySpecies1);
+    console.log(fantasySpecies1)
     fantasySpecies1.textContent = outputFantasySpecies1;
     //word 3
     const inputAdjective2 = document.getElementById('input-adjective2');
