@@ -96,3 +96,8 @@ label {
     text-decoration: underline;
     font-size: 50px;
 }
+
+#madlib-full {
+    /* this is what hides the madlib */
+    opacity: 0;
+}

@@ -50,7 +50,7 @@ function revealMadLib() {
     const fantasyCountry = document.getElementById('fantasyCountry');
     fantasyCountry.textContent = outputFantasyCountry;
 
-    
+    document.getElementById('madlib-full').style.opacity = .9;
 }
 
 
